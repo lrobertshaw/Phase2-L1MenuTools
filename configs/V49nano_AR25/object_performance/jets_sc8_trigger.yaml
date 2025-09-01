@@ -183,7 +183,7 @@ JetTurnonForwardHFSC8Mass:
     method: "naive"
     threshold: 0.6
   xlabel: "Gen. $p_T$ (GeV)"
-  ylabel: "Trigger Efficiency (<threshold> GeV, forwardHF )
+  ylabel: "Trigger Efficiency (<threshold> GeV, forwardHF )"
   binning:
     min: 0
     max: 500
@@ -211,7 +211,7 @@ JetTurnonForwardHGCSC8Mass:
     method: "naive"
     threshold: 0.6
   xlabel: "Gen. $p_T$ (GeV)"
-  ylabel: "Trigger Efficiency (<threshold> GeV, forwardHGC)
+  ylabel: "Trigger Efficiency (<threshold> GeV, forwardHGC)"
   binning:
     min: 0
     max: 500

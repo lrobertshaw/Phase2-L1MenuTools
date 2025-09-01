@@ -1,4 +1,5 @@
 version: "V49nano_AR25"
-sample: "MinBias"
-menu_config: "configs/V49nano_AR25/rate_table/step1and2_menu_cfg.yml"
+sample: "TT_boosted"
+menu_config: "/eos/home-l/lroberts/Phase2-L1MenuTools/configs/V49nano_AR25/rate_table/step1and2_menu_cfg.yml"
+# menu_config: "configs/V49nano_AR25/rate_table/step1and2_menu_cfg.yml"
 table_fname: "v45_Step1and2Menu"
