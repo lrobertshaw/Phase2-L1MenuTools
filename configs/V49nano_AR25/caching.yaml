@@ -78,7 +78,7 @@ V49nano_AR25:
         L1ExtTrackHT: [ht]
 
   TT_boosted:
-    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/output_Phase2_L1T_signal.root
+    ntuple_path: /eos/user/l/lroberts/Phase2-L1MenuTools/signal_samples/output_Phase2_L1T_signal.root
     trees_branches:
       Events:
         # gen
@@ -127,8 +127,8 @@ V49nano_AR25:
         L1TrackTripletWord: [pt]
         L1ExtTrackHT: [ht]
 
-  LH_20:
-    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-20_PU200_signal.root
+  LH_20_qq:
+    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-20_qq_PU200_signal.root
     trees_branches:
       Events:
         # gen
@@ -177,8 +177,58 @@ V49nano_AR25:
         L1TrackTripletWord: [pt]
         L1ExtTrackHT: [ht]
 
-  LH_30:
-    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-30_PU200_signal.root
+  LH_30_qq:
+    ntuple_path: /eos/user/l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-30_qq_PU200_signal.root
+    trees_branches:
+      Events:
+        # gen
+        GenJet: [pt, eta, phi, partonFlavour]
+        GenJetAK8: [pt, eta, phi, mass]
+        GenMET: "all"
+        GenPart: "all"
+        # sums
+        L1puppiMET: [pt, phi]
+        L1puppiMLMET: [pt]
+        L1puppiJetSC4sums: [pt, phi]
+        L1puppiHistoJetSums: [pt, phi]
+        # jets
+        L1puppiJetSC4: [pt, eta, phi]
+        L1puppiJetSC8: [pt, eta, phi, mass]
+        L1puppiExtJetSC4: [pt, eta, phi, btagScore]
+        L1puppiJetSC4NG: [pt, eta, phi, udsTagScore, bTagScore, cTagScore, gTagScore]
+        L1puppiJetHisto: [pt, eta, phi]
+        L1caloJet: [pt, eta, phi]
+        L1TrackMET: [pt]
+        L1TrackHT: [ht, mht]
+        L1TrackJet: [pt, eta, phi]
+        # EG
+        L1tkElectron: "all"
+        # L1EG: "all"
+        L1EGbarrel: "all" 
+        L1EGendcap: "all"
+        ## Muons
+        L1gmtTkMuon: "all" 
+        L1gmtMuon: "all"
+        L1gmtDispMuon: "all"
+        ## TF Muons
+        L1MuonKMTF: "all"
+        L1MuonOMTF: "all"
+        L1MuonEMTF: "all"
+        L1DispMuonKMTF: "all"
+        L1DispMuonOMTF: "all"
+        L1DispMuonEMTF: "all"
+        L1tkPhoton: "all" 
+        GenVisTau: "all" 
+        L1nnPuppiTau: "all" 
+        L1hpsTau: "all"
+        L1caloTau: "all" 
+        L1nnCaloTau: "all"
+        L1PV: [z0]
+        L1TrackTripletWord: [pt]
+        L1ExtTrackHT: [ht]
+
+  LH_40_qq:
+    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-40_qq_PU200_signal.root
     trees_branches:
       Events:
         # gen
@@ -227,8 +277,8 @@ V49nano_AR25:
         L1TrackTripletWord: [pt]
         L1ExtTrackHT: [ht]
 
-  LH_40:
-    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-40_PU200_signal.root
+  LH_50_qq:
+    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-50_qq_PU200_signal.root
     trees_branches:
       Events:
         # gen
@@ -277,8 +327,8 @@ V49nano_AR25:
         L1TrackTripletWord: [pt]
         L1ExtTrackHT: [ht]
 
-  LH_50:
-    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-50_PU200_signal.root
+  LH_60_qq:
+    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-60_qq_PU200_signal.root
     trees_branches:
       Events:
         # gen
@@ -327,8 +377,8 @@ V49nano_AR25:
         L1TrackTripletWord: [pt]
         L1ExtTrackHT: [ht]
 
-  LH_60:
-    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-60_PU200_signal.root
+  LH_70_qq:
+    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-70_qq_PU200_signal.root
     trees_branches:
       Events:
         # gen
@@ -377,8 +427,8 @@ V49nano_AR25:
         L1TrackTripletWord: [pt]
         L1ExtTrackHT: [ht]
 
-  LH_70:
-    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-70_PU200_signal.root
+  LH_80_qq:
+    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-80_qq_PU200_signal.root
     trees_branches:
       Events:
         # gen
@@ -427,8 +477,8 @@ V49nano_AR25:
         L1TrackTripletWord: [pt]
         L1ExtTrackHT: [ht]
 
-  LH_80:
-    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-80_PU200_signal.root
+  LH_90_qq:
+    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-90_qq_PU200_signal.root
     trees_branches:
       Events:
         # gen
@@ -477,8 +527,8 @@ V49nano_AR25:
         L1TrackTripletWord: [pt]
         L1ExtTrackHT: [ht]
 
-  LH_90:
-    ntuple_path: /eos/home-l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MH-90_PU200_signal.root
+  MX_350_LH_50_qq:
+    ntuple_path: /eos/user/l/lroberts/Phase2-L1MenuTools/signal_samples/XtoHH_MX-350_MH-50_qq_PU200_signal.root
     trees_branches:
       Events:
         # gen
@@ -537,6 +587,7 @@ V49nano_AR25:
         L1hpsTau: "all"
         L1caloTau: "all" 
         L1nnCaloTau: "all"
+
   MinBias:
     ntuple_path: /eos/cms/store/group/dpg_trigger/comm_trigger/L1Trigger/roward/phase2/menu/ntuples/Spring24/151X_AllAR25_FindOn/v45/MinBias_TuneCP5_14TeV-pythia8/MinBias_Spring24_200PUALCA_V45_reL1wTT_151X_AllAR25_FindOn/*/hadd/*.root
     trees_branches:
@@ -575,128 +626,3 @@ V49nano_AR25:
         L1TrackJet: [pt, eta, phi]
         L1TrackTripletWord: [pt]
         L1ExtTrackHT: [ht]
-
-
-# V49nano_AR25:
-#   Hgg:
-#     ntuple_path: /eos/cms/store/group/dpg_trigger/comm_trigger/L1Trigger/roward/phase2/menu/ntuples/Spring24/151X_AllAR25_FindOn/v45/GluGluHToGG_M-125_TuneCP5_14TeV-powheg-pythia8/Hto2gg_Spring24_200PU_V45_reL1wTT_151X_AllAR25_FindOn/*/hadd/*.root
-#     trees_branches:
-#       Events:
-#         GenPart: [pt, eta, phi, pdgId, statusFlags]
-#         L1tkPhoton: "all" 
-#         L1EGbarrel: "all" 
-#         L1EGendcap: "all" 
-#   DYLL_M50:
-#     ntuple_path: /eos/cms/store/group/dpg_trigger/comm_trigger/L1Trigger/roward/phase2/menu/ntuples/Spring24/151X_AllAR25_FindOn/v45/DYToLL_M-50_TuneCP5_14TeV-pythia8/DY_M50_Spring24_200PU_V45_reL1wTT_151X_AllAR25_FindOn/*/hadd/*.root
-#     trees_branches:
-#       Events:
-#         GenPart: "all" 
-#         ## EG
-#         L1tkElectron: "all" 
-#         L1EGbarrel: "all" 
-#         L1EGendcap: "all" 
-#         ## Muons
-#         L1gmtTkMuon: "all" 
-#         L1gmtMuon: "all"
-#         L1gmtDispMuon: "all"
-#         ## TF Muons
-#         L1MuonKMTF: "all"
-#         L1MuonOMTF: "all"
-#         L1MuonEMTF: "all"
-#         L1DispMuonKMTF: "all"
-#         L1DispMuonOMTF: "all"
-#         L1DispMuonEMTF: "all"
-#   TT:
-#     ntuple_path: /eos/cms/store/group/dpg_trigger/comm_trigger/L1Trigger/lroberts/Phase2Spring24_XtoHH_MX-350_MH-50_PU200_MENU_NANOS/Phase2Spring24_XtoHH_MX-350_MH-50_PU200.root #/eos/cms/store/group/dpg_trigger/comm_trigger/L1Trigger/roward/phase2/menu/ntuples/Spring24/151X_AllAR25_FindOn/v45/TT_TuneCP5_14TeV-powheg-pythia8/TT_Spring24_200PU_V45_reL1wTT_151X_AllAR25_FindOn/*/hadd/*.root
-#     trees_branches:
-#       Events:
-#         # gen
-#         GenJet: [pt, eta, phi, partonFlavour]
-#         GenJetAK8: [pt, eta, phi, mass]
-#         GenMET: "all"
-#         # # sums
-#         L1puppiMET: [pt, phi]
-#         L1puppiMLMET: [pt]
-#         L1puppiJetSC4sums: [pt, phi]
-#         L1puppiHistoJetSums: [pt, phi]
-#         # # jets
-#         L1puppiJetSC4: [pt, eta, phi]
-#         L1puppiJetSC8: [pt, eta, phi, mass]
-#         L1puppiExtJetSC4: [pt, eta, phi, btagScore]
-#         L1puppiJetSC4NG: [pt, eta, phi, udsTagScore, bTagScore, cTagScore, gTagScore]
-#         L1puppiJetHisto: [pt, eta, phi]
-#         L1caloJet: [pt, eta, phi]
-#         L1TrackMET: [pt]
-#         L1TrackHT: [ht, mht]
-#         L1TrackJet: [pt, eta, phi]
-#   # lightH:
-#   #   ntuple_path: /eos/cms/store/group/dpg_trigger/comm_trigger/L1Trigger/lroberts/Phase2Spring24_XtoHH_MX-350_MH-50_PU200_MENU_NANOS/Phase2Spring24_XtoHH_MX-350_MH-50_PU200.root
-#   #   trees_branches:
-#   #     Events:
-#   #       # gen
-#   #       GenJet: [pt, eta, phi, partonFlavour]
-#   #       GenJetAK8: [pt, eta, phi, mass]
-#   #       GenMET: "all"
-#   #       # # sums
-#   #       L1puppiMET: [pt, phi]
-#   #       L1puppiMLMET: [pt]
-#   #       L1puppiJetSC4sums: [pt, phi]
-#   #       L1puppiHistoJetSums: [pt, phi]
-#   #       # # jets
-#   #       L1puppiJetSC4: [pt, eta, phi]
-#   #       L1puppiJetSC8: [pt, eta, phi, mass]
-#   #       L1puppiExtJetSC4: [pt, eta, phi, btagScore]
-#   #       L1puppiJetSC4NG: [pt, eta, phi, udsTagScore, bTagScore, cTagScore, gTagScore]
-#   #       L1puppiJetHisto: [pt, eta, phi]
-#   #       L1caloJet: [pt, eta, phi]
-#   #       L1TrackMET: [pt]
-#   #       L1TrackHT: [ht, mht]
-#   #       L1TrackJet: [pt, eta, phi]
-#   VBFHToTauTau:
-#     ntuple_path: /eos/cms/store/group/dpg_trigger/comm_trigger/L1Trigger/roward/phase2/menu/ntuples/Spring24/151X_AllAR25_FindOn/v45/VBF_HToTauTau_M-125_TuneCP5_14TeV-powheg-pythia8/VBFHtoTaus_Spring24_200PU_V45_reL1wTT_151X_AllAR25_FindOn/*/hadd/*.root
-#     trees_branches:
-#       Events:
-#         GenPart: [pt, eta, phi, pdgId, statusFlags]
-#         GenVisTau: "all" 
-#         L1nnPuppiTau: "all" 
-#         L1hpsTau: "all"
-#         L1caloTau: "all" 
-#         L1nnCaloTau: "all"
-#   MinBias:
-#     ntuple_path: /eos/cms/store/group/dpg_trigger/comm_trigger/L1Trigger/roward/phase2/menu/ntuples/Spring24/151X_AllAR25_FindOn/v45/MinBias_TuneCP5_14TeV-pythia8/MinBias_Spring24_200PUALCA_V45_reL1wTT_151X_AllAR25_FindOn/*/hadd/*.root
-#     trees_branches:
-#       Events:
-#         # PV
-#         L1PV: [z0]
-#         ## EG
-#         L1tkPhoton: "all" 
-#         L1tkElectron: "all" 
-#         L1EGbarrel: "all" 
-#         L1EGendcap: "all" 
-#         ## MUONS
-#         L1gmtTkMuon: "all" 
-#         L1gmtMuon: "all"  # aka gmtMuon
-#         L1gmtDispMuon: "all"
-#         ## TAUS
-#         L1nnPuppiTau: "all" 
-#         L1hpsTau: "all"
-#         L1caloTau: "all" 
-#         L1nnCaloTau: "all"
-#         ## MET/Sums
-#         L1puppiMET: [pt, phi]
-#         L1puppiMLMET: [pt]
-#         L1puppiJetSC4sums: [pt, phi]
-#         L1puppiHistoJetSums: [pt, phi]
-#         # # jets
-#         L1puppiJetSC4: [pt, eta, phi]
-#         L1puppiJetSC8: [pt, eta, phi, mass]
-#         L1puppiExtJetSC4: [pt, eta, phi, btagScore]
-#         L1puppiJetSC4NG: [pt, eta, phi, udsTagScore, bTagScore, cTagScore, gTagScore]
-#         L1puppiJetHisto: [pt, eta, phi]
-#         L1caloJet: [pt, eta, phi]
-#         ## track-only
-#         L1TrackMET: [pt]
-#         L1TrackHT: [ht, mht]
-#         L1TrackJet: [pt, eta, phi]
-#         L1TrackTripletWord: [pt]
-#         L1ExtTrackHT: [ht]

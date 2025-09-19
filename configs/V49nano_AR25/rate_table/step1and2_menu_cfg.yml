@@ -1,3 +1,235 @@
+# L1_DoublePFJet_SinglePFJet8_dEtaMax_Mass10_Pt100:
+#   cross_masks:
+#     - abs(leg2.eta-leg1.eta) < 1.6
+#     - abs(leg1.eta) < 2.4
+#     - abs(leg2.eta) < 2.4
+#   leg1:
+#     threshold_cut: leg1.offline_pt >= 100.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg2:
+#     threshold_cut: leg2.offline_pt >= 100.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg3:
+#     threshold_cut: leg3.pt >= 120.0    # 112.0
+#     obj: L1puppiJetSC8:mass10
+
+# L1_DoublePFJet_SinglePFJet8_dEtaMax_Mass10_Pt105:
+#   cross_masks:
+#     - abs(leg2.eta-leg1.eta) < 1.6
+#     - abs(leg1.eta) < 2.4
+#     - abs(leg2.eta) < 2.4
+#   leg1:
+#     threshold_cut: leg1.offline_pt >= 105.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg2:
+#     threshold_cut: leg2.offline_pt >= 105.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg3:
+#     threshold_cut: leg3.pt >= 120.0    # 112.0
+#     obj: L1puppiJetSC8:mass10
+
+# L1_DoublePFJet_SinglePFJet8_dEtaMax_Mass10_Pt110:
+#   cross_masks:
+#     - abs(leg2.eta-leg1.eta) < 1.6
+#     - abs(leg1.eta) < 2.4
+#     - abs(leg2.eta) < 2.4
+#   leg1:
+#     threshold_cut: leg1.offline_pt >= 110.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg2:
+#     threshold_cut: leg2.offline_pt >= 110.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg3:
+#     threshold_cut: leg3.pt >= 120.0    # 112.0
+#     obj: L1puppiJetSC8:mass10
+
+
+# L1_DoublePFJet_SinglePFJet8_dEtaMax_Mass15_Pt95:
+#   cross_masks:
+#     - abs(leg2.eta-leg1.eta) < 1.6
+#     - abs(leg1.eta) < 2.4
+#     - abs(leg2.eta) < 2.4
+#   leg1:
+#     threshold_cut: leg1.offline_pt >= 95.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg2:
+#     threshold_cut: leg2.offline_pt >= 95.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg3:
+#     threshold_cut: leg3.pt >= 120.0    # 112.0
+#     obj: L1puppiJetSC8:mass15
+
+# L1_DoublePFJet_SinglePFJet8_dEtaMax_Mass15_Pt100:
+#   cross_masks:
+#     - abs(leg2.eta-leg1.eta) < 1.6
+#     - abs(leg1.eta) < 2.4
+#     - abs(leg2.eta) < 2.4
+#   leg1:
+#     threshold_cut: leg1.offline_pt >= 100.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg2:
+#     threshold_cut: leg2.offline_pt >= 100.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg3:
+#     threshold_cut: leg3.pt >= 120.0    # 112.0
+#     obj: L1puppiJetSC8:mass15
+
+# L1_DoublePFJet_SinglePFJet8_dEtaMax_Mass15_Pt105:
+#   cross_masks:
+#     - abs(leg2.eta-leg1.eta) < 1.6
+#     - abs(leg1.eta) < 2.4
+#     - abs(leg2.eta) < 2.4
+#   leg1:
+#     threshold_cut: leg1.offline_pt >= 105.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg2:
+#     threshold_cut: leg2.offline_pt >= 105.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg3:
+#     threshold_cut: leg3.pt >= 120.0    # 112.0
+#     obj: L1puppiJetSC8:mass15
+
+# L1_DoublePFJet_SinglePFJet8_dEtaMax_Mass20_Pt90:
+#   cross_masks:
+#     - abs(leg2.eta-leg1.eta) < 1.6
+#     - abs(leg1.eta) < 2.4
+#     - abs(leg2.eta) < 2.4
+#   leg1:
+#     threshold_cut: leg1.offline_pt >= 90.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg2:
+#     threshold_cut: leg2.offline_pt >= 90.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg3:
+#     threshold_cut: leg3.pt >= 120.0    # 112.0
+#     obj: L1puppiJetSC8:mass20
+
+# L1_DoublePFJet_SinglePFJet8_dEtaMax_Mass20_Pt95:
+#   cross_masks:
+#     - abs(leg2.eta-leg1.eta) < 1.6
+#     - abs(leg1.eta) < 2.4
+#     - abs(leg2.eta) < 2.4
+#   leg1:
+#     threshold_cut: leg1.offline_pt >= 95.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg2:
+#     threshold_cut: leg2.offline_pt >= 95.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg3:
+#     threshold_cut: leg3.pt >= 120.0    # 112.0
+#     obj: L1puppiJetSC8:mass20
+
+# L1_DoublePFJet_SinglePFJet8_dEtaMax_Mass20_Pt100:
+#   cross_masks:
+#     - abs(leg2.eta-leg1.eta) < 1.6
+#     - abs(leg1.eta) < 2.4
+#     - abs(leg2.eta) < 2.4
+#   leg1:
+#     threshold_cut: leg1.offline_pt >= 100.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg2:
+#     threshold_cut: leg2.offline_pt >= 100.0    # 112.0
+#     obj: L1puppiJetSC4:default
+#   leg3:
+#     threshold_cut: leg3.pt >= 120.0    # 112.0
+#     obj: L1puppiJetSC8:mass20
+
+
+# # Mass triggers
+# L1_SinglePfJet8_Mass20Pt119p5:
+#   cross_masks: []
+#   leg1:
+#     threshold_cut: pt >= 0.0
+#     obj: L1puppiJetSC8:mass20pt119p5
+
+# L1_SinglePfJet8_Mass15Pt115:
+#   cross_masks: []
+#   leg1:
+#     threshold_cut: pt >= 0.0
+#     obj: L1puppiJetSC8:mass15pt115
+
+# L1_SinglePfJet8_Mass27:
+#   cross_masks: []
+#   leg1:
+#     threshold_cut: pt >= 0.0
+#     obj: L1puppiJetSC8:mass27
+
+# L1_SinglePfJet8_Mass25:
+#   cross_masks: []
+#   leg1:
+#     threshold_cut: pt >= 0.0
+#     obj: L1puppiJetSC8:mass25
+
+# L1_SinglePfJet8_Mass23:
+#   cross_masks: []
+#   leg1:
+#     threshold_cut: pt >= 0.0
+#     obj: L1puppiJetSC8:mass23
+
+# # Wide cone pT triggers
+
+# L1_SinglePfJet8_220:
+#   cross_masks: []
+#   leg1:
+#     threshold_cut: offline_pt >= 220.0
+#     obj: L1puppiJetSC8:default
+
+# L1_SinglePfJet8_210:
+#   cross_masks: []
+#   leg1:
+#     threshold_cut: offline_pt >= 210.0
+#     obj: L1puppiJetSC8:default
+
+# L1_SinglePfJet8_200:
+#   cross_masks: []
+#   leg1:
+#     threshold_cut: offline_pt >= 200.0
+#     obj: L1puppiJetSC8:default
+
+# L1_SinglePfJet8_190:
+#   cross_masks: []
+#   leg1:
+#     threshold_cut: offline_pt >= 190.0
+#     obj: L1puppiJetSC8:default
+
+# L1_SinglePfJet8_180:
+#   cross_masks: []
+#   leg1:
+#     threshold_cut: offline_pt >= 180.0
+#     obj: L1puppiJetSC8:default
+
+# Double SC8 jet trigger with delta eta requirement between two leading SC8 jets
+# L1_DoublePFJet8_dEtaMax:
+#   cross_masks:
+#     - abs(leg2.eta-leg1.eta) < 1.6
+#   leg1:
+#     threshold_cut: leg1.offline_pt >= 200.0
+#     obj: L1puppiJetSC8:default
+#   leg2:
+#     threshold_cut: leg2.offline_pt >= 200.0
+#     obj: L1puppiJetSC8:default
+
+# Single SC8 jet trigger with mass requirement
+# L1_SinglePfJet8_Mass:
+#   cross_masks: []
+#   leg1:
+#     threshold_cut: pt >= 120
+#     obj: L1puppiJetSC8:mass20
+
+# Double SC8 jet trigger with delta eta and mass requirements
+# L1_DoublePFJet8_dEtaMax_Mass:
+#   cross_masks:
+#     - abs(leg2.eta-leg1.eta) < 1.6
+#   leg1:
+#     threshold_cut: pt >= 115
+#     obj: L1puppiJetSC8:mass10
+#   leg2:
+#     threshold_cut: pt >= 115
+#     obj: L1puppiJetSC8:mass10
+
+
+# EXISTING JET TRIGGERS
+
 # HT
 L1_PFHTT:
   cross_masks: []
@@ -45,11 +277,18 @@ L1_DoublePFJet_dEtaMax:
     - abs(leg1.eta) < 2.4
     - abs(leg2.eta) < 2.4
   leg1:
-    threshold_cut: leg1.offline_pt >= 112.0
+    threshold_cut: leg1.offline_pt >= 112.0    # 112.0
     obj: L1puppiJetSC4:default
   leg2:
-    threshold_cut: leg2.offline_pt >= 112.0
+    threshold_cut: leg2.offline_pt >= 112.0    # 112.0
     obj: L1puppiJetSC4:default
+
+# SINGLE SC8 JET TRIGGER
+L1_SinglePfJet8_230:
+  cross_masks: []
+  leg1:
+    threshold_cut: offline_pt >= 230.0
+    obj: L1puppiJetSC8:default
 
 # QUAD JET HT
 L1_PFHTT_QuadJet:
@@ -75,66 +314,33 @@ L1_PFHTT_QuadJet:
     obj: L1puppiJetSC4:default
 
 # QUAD JET HT WITH BTAG SCORE
-L1_PFHTT_QuadJet_BTagNNScore:
-  cross_masks:
-    - (leg2.bTagScore + leg3.bTagScore + leg4.bTagScore + leg5.bTagScore) > 0.2
-  leg1:
-    threshold_cut: offline_pt >= 299.0
-    obj: L1puppiJetSC4sums:HT
-  leg2:
-    threshold_cut: pt >= 25
-    obj: L1puppiJetSC4NG:default
-  leg3:
-    threshold_cut: pt >= 25
-    obj: L1puppiJetSC4NG:default
-  leg4:
-    threshold_cut: pt >= 25
-    obj: L1puppiJetSC4NG:default
-  leg5:
-    threshold_cut: pt >= 25
-    obj: L1puppiJetSC4NG:default
+# L1_PFHTT_QuadJet_BTagNNScore:
+#   cross_masks:
+#     - (leg2.bTagScore + leg3.bTagScore + leg4.bTagScore + leg5.bTagScore) > 0.2
+#   leg1:
+#     threshold_cut: offline_pt >= 299.0
+#     obj: L1puppiJetSC4sums:HT
+#   leg2:
+#     threshold_cut: pt >= 25
+#     obj: L1puppiJetSC4NG:default
+#   leg3:
+#     threshold_cut: pt >= 25
+#     obj: L1puppiJetSC4NG:default
+#   leg4:
+#     threshold_cut: pt >= 25
+#     obj: L1puppiJetSC4NG:default
+#   leg5:
+#     threshold_cut: pt >= 25
+#     obj: L1puppiJetSC4NG:default
 
-# Single SC8 jet trigger
-L1_SinglePfJet8:
-  cross_masks: []
-  leg1:
-    threshold_cut: offline_pt >= 230.0
-    obj: L1puppiJetSC8:default
 
-# Double SC8 jet trigger with delta eta requirement between two leading SC8 jets
-L1_DoublePFJet8_dEtaMax:
-  cross_masks:
-    - abs(leg2.eta-leg1.eta) < 1.6
-  leg1:
-    threshold_cut: leg1.offline_pt >= 200.0
-    obj: L1puppiJetSC8:default
-  leg2:
-    threshold_cut: leg2.offline_pt >= 200.0
-    obj: L1puppiJetSC8:default
+# REST OF MENU
 
-# Single SC8 jet trigger with mass requirement
-# L1_SinglePfJet8_Mass:
+# L1_PFMLMet:
 #   cross_masks: []
 #   leg1:
-#     threshold_cut: pt >= 120
-#     obj: L1puppiJetSC8:mass20
-
-# Double SC8 jet trigger with delta eta and mass requirements
-# L1_DoublePFJet8_dEtaMax_Mass:
-#   cross_masks:
-#     - abs(leg2.eta-leg1.eta) < 1.6
-#   leg1:
-#     threshold_cut: pt >= 115
-#     obj: L1puppiJetSC8:mass10
-#   leg2:
-#     threshold_cut: pt >= 115
-#     obj: L1puppiJetSC8:mass10
-
-L1_PFMLMet:
-  cross_masks: []
-  leg1:
-    threshold_cut: offline_pt >= 200.0
-    obj: L1puppiMLMET:default
+#     threshold_cut: offline_pt >= 200.0
+#     obj: L1puppiMLMET:default
 L1_DoubleTkMu4p5er2p0_SQ_OS_Mass7to18:
   cross_masks:
     - (abs(leg1.eta) < 2.0)
@@ -192,7 +398,6 @@ L1_SingleTkPhoIso:
   leg1:
     threshold_cut: offline_pt >= 36.0
     obj: L1tkPhoton:Iso
-
 L1_DoubleTkPhoIso:
   cross_masks: []
   leg1:
